@@ -1,29 +1,11 @@
-# P1022 [NOIP2000 普及组] 计算器的改良
-
----
-
-## 解题思路:
-
 ```go
-/*
-一整串输入作为什么数据类型?
-go语言是如何处理字符串的
-以中间等号为区分
-对含有a的的和不含a的进行区分
-将数字提取出来,并看它前面是正还是负还是没有
+/* 
+用go实现凯撒密码
+如其它语言相通
+可对ascii码进行操作                    
 */
 ```
 
-```mermaid
-graph LR
-字符串-->等号定位-->左边--未知数统一在左-->相加
-等号定位-->提取未知数和常量-->通过其前方的正负或无来定值-->相加
-等号定位-->右边--未知数统一在左-->相加
-```
+感觉好简单哦,但是我的goland使用过期了无奈配了个vscode环境,又发现无法debugger调试,试了好久,翻了半天GitHub和StackOverflow才发现一个解决方法[Issues · golang/vscode-go (github.com)](https://github.com/golang/vscode-go/labels/Debug),需要配json和服务器改用终端调试.但是用上也发现go里用scanf莫名其妙不行,改用scanln还不需要占位符,挺好
 
-:crying_cat_face: 寄![image-20220718181802208](../../AppData/Roaming/Typora/typora-user-images/image-20220718181802208.png)
-
-- 思路不细致,越做越乱,一直以测试点为目标,反而误了大局
-
-- 不善用断点来进行debug, 前期一直靠想
-
+![image.png](https://s2.loli.net/2022/07/18/3nDaBuTXgFZmLyj.png)

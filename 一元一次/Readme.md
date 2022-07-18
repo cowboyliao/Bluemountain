@@ -21,7 +21,7 @@ graph LR
 等号定位-->右边--未知数统一在左-->相加
 ```
 
-:crying_cat_face: 寄![image-20220718181802208](../../AppData/Roaming/Typora/typora-user-images/image-20220718181802208.png)
+:crying_cat_face: 寄![image-20220718181802208.png](https://s2.loli.net/2022/07/18/qEydoNQt412eFVS.png)
 
 - 思路不细致,越做越乱,一直以测试点为目标,反而误了大局
 
